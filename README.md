@@ -1,4 +1,3 @@
-b
 # Telegram ChatBot
 
 A is a simple Telegram bot that responds to users automatically when they communicate with it.

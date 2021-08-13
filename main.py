@@ -34,6 +34,9 @@ def list(update, context):
 def socials(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="List of Socails are down below:\n {Github} https://github.com/amrohan\n\n {Twitter} https://twitter.com/amrohann\n\n {Instagram} https://www.instagram.com/amrohann\n\n {Email} hello@rohan.ml")
 
+def source_code(update, context):
+    context.bot.send_message(chat_id=update.effective_chat.id, text="the source code can be accessed here\n {Github}\n https://github.com/amrohan/ChatBot")
+
 def handle_message(update, context):
     text = str(update.message.text).lower()
     logging.info(f'User ({update.message.chat.id}) says: {text}')
@@ -66,9 +69,7 @@ if __name__ == '__main__':
 
     dp.add_handler(CommandHandler('socials', socials))
 
-
-
-    
+    dp.add_handler(CommandHandler('source_code',source_code))
 
     # Messages
     dp.add_handler(MessageHandler(Filters.text, handle_message))

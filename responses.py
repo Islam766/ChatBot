@@ -43,6 +43,8 @@ def get_response(message):
         Bot_Response(message, ['notes','note',], 'Soon, notes will be available'),
 
         Bot_Response(message, ['socials','socials',], 'Here you Go\n /socials'),
+
+        Bot_Response(message, ['source','code',], 'Here you Go\n /source_code'),
         
         #Nude Joke Lol
         Bot_Response(message, ['nude','nudes',], 'I just took a screenshot, and I\'m sending your photo to @amrohan right now, you lil horny ass😏'),

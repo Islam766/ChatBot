@@ -83,10 +83,7 @@ Now that your python bot is fully functional, simply modify the file in response
 
 ### Deploying tutorial :
 
-![https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g3fd0gm351w8gxnnrudc.jpg](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g3fd0gm351w8gxnnrudc.jpg)
-
-[https://youtu.be/XnoZ9zxwnCQ](https://youtu.be/XnoZ9zxwnCQ)
-
+[![Python Telegram Bot Video](https://res.cloudinary.com/marcomontalbano/image/upload/v1628913692/video_to_markdown/images/youtube--XnoZ9zxwnCQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/XnoZ9zxwnCQ "Python Telegram Bot")
 That's how you got your Telegram bot up and running on Heroku.
 
 ### Contact

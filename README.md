@@ -1,5 +1,3 @@
-# Chat-Bot
-
 # Telegram Chat-Bot
 
 A is a simple Telegram bot that responds to users automatically when they communicate with it.

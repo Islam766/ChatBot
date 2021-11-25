@@ -65,7 +65,8 @@ def get_response(message):
 
     # Return the matching response to the user
     if winning_response == 0:
-     
+        bot_response = ''
+    else:
         bot_response = matching_response[1]
 
     print('Bot response:', bot_response)

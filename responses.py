@@ -23,7 +23,7 @@ def get_response(message):
         
         Bot_Response(message, ['бот', 'тупой'], 'Давай я расскажу тебе одну историю, после которой ты станешь полным идиотом. Хотя нет, вижу, ты эту историю уже слышал.'),
 
-        Bot_Response(message, ['сколько тебе лет', 'type cmd'], 'click me /list'),
+        Bot_Response(message, ['сколькотебелет', 'type cmd'], 'click me /list'),
         
         Bot_Response(message, ['how', 'are', 'you'], 'I\'m doing fine thanks!'),
         #new
@@ -34,15 +34,15 @@ def get_response(message):
         #Help
         Bot_Response(message, ['help', 'please'], 'I will do my best to assist you!'),
         #Website
-        Bot_Response(message, ['link','links',], 'website https://rohan.ml'),
+        Bot_Response(message, ['д1авала',], 'website https://rohan.ml'),
         
         #Song
-        Bot_Response(message, ['play','song',], 'https://youtu.be/edzt82nC45k'),
+        Bot_Response(message, ['','song',], 'https://youtu.be/edzt82nC45k'),
         
         #Notes
         Bot_Response(message, ['notes','note',], 'Soon, notes will be available'),
 
-        Bot_Response(message, ['socials','socials',], 'Here you Go\n /socials'),
+        Bot_Response(message, ['бля йой',], 'Here you Go\n /socials'),
 
         Bot_Response(message, ['source','code',], 'Here you Go\n /source_code'),
         

@@ -19,9 +19,9 @@ def Bot_Response(message, response_array, response):
 def get_response(message):
     # Add your custom responses here
     response_list = [
-        Bot_Response(message, ['ассаламу', '1алейкум', 'hey','sup'], 'Здравствуйте, ваш AI-компаньон здесь, чтобы служить вам. \nВы можете говорить в обычном режиме или введите (cmd), чтобы начать работу'),
+        Bot_Response(message, ['ассаламу', '1алейкум', 'hey','sup'], 'Ва|алейкум ассалям варах|матулох|и ва баракатух|у'),
         
-        Bot_Response(message, ['bye', 'goodbye'], 'Пожалуйста, не уходи!'),
+        Bot_Response(message, ['тупой бот', 'goodbye'], 'сам ты бот'),
 
         Bot_Response(message, ['cmd', 'type cmd'], 'нажми на меня /list'),
         
@@ -32,7 +32,7 @@ def get_response(message):
         #Name
         Bot_Response(message, ['your', 'name'], 'Меня зовут Бот Рохана, приятно познакомиться!'), 
         #Help
-        Bot_Response(message, ['help', 'please'], 'Я сделаю все возможное, чтобы помочь тебе!'),
+        Bot_Response(message, ['урод', 'дурак'], 'Я сделаю все возможное, чтобы помочь тебе!'),
         #Website
         Bot_Response(message, ['link','links',], 'website https://rohan.ml'),
         

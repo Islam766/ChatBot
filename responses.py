@@ -19,20 +19,20 @@ def Bot_Response(message, response_array, response):
 def get_response(message):
     # Add your custom responses here
     response_list = [
-        Bot_Response(message, ['hello', 'hi', 'hey','sup'], 'Hello there, your AI companion is here to serve you.\nYou can talk normally or Type (cmd) to get started '),
+        Bot_Response(message, ['hello', 'hi', 'hey','sup'], 'Здравствуйте, ваш AI-компаньон здесь, чтобы служить вам. \nВы можете говорить в обычном режиме или введите (cmd), чтобы начать работу'),
         
-        Bot_Response(message, ['bye', 'goodbye'], 'Please don\'t go!'),
+        Bot_Response(message, ['bye', 'goodbye'], 'Пожалуйста, не уходи!'),
 
-        Bot_Response(message, ['cmd', 'type cmd'], 'click me /list'),
+        Bot_Response(message, ['cmd', 'type cmd'], 'нажми на меня /list'),
         
-        Bot_Response(message, ['how', 'are', 'you'], 'I\'m doing fine thanks!'),
+        Bot_Response(message, ['how', 'are', 'you'], 'У меня все хорошо спасибо!'),
         #new
-        Bot_Response(message, ['how', 'you', 'created'], 'I was created by using python and got deployed on Herkou'),
+        Bot_Response(message, ['how', 'you', 'created'], 'Я был создан с помощью python и развернут на Heroku'),
         
         #Name
-        Bot_Response(message, ['your', 'name'], 'My name is Rohan\'s Bot, nice to meet you!'), 
+        Bot_Response(message, ['your', 'name'], 'Меня зовут Бот Рохана, приятно познакомиться!'), 
         #Help
-        Bot_Response(message, ['help', 'please'], 'I will do my best to assist you!'),
+        Bot_Response(message, ['help', 'please'], 'Я сделаю все возможное, чтобы помочь тебе!'),
         #Website
         Bot_Response(message, ['link','links',], 'website https://rohan.ml'),
         

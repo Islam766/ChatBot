@@ -19,11 +19,11 @@ def Bot_Response(message, response_array, response):
 def get_response(message):
     # Add your custom responses here
     response_list = [
-        Bot_Response(message, ['hello', 'hi', 'hey','sup'], 'Hello there, your AI companion is here to serve you.\nYou can talk normally or Type (cmd) to get started '),
+        Bot_Response(message, ['Ассаламу', '1алейкум'], 'Ва|алейкум ассалям варах|матулох|и ва баракатух|у '),
         
-        Bot_Response(message, ['bye', 'goodbye'], 'Please don\'t go!'),
+        Bot_Response(message, ['бот', 'тупой'], 'Давай я расскажу тебе одну историю, после которой ты станешь полным идиотом. Хотя нет, вижу, ты эту историю уже слышал.'),
 
-        Bot_Response(message, ['cmd', 'type cmd'], 'click me /list'),
+        Bot_Response(message, ['сколько тебе лет', 'type cmd'], 'click me /list'),
         
         Bot_Response(message, ['how', 'are', 'you'], 'I\'m doing fine thanks!'),
         #new

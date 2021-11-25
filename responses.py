@@ -21,7 +21,7 @@ def get_response(message):
     response_list = [
         Bot_Response(message, ['ассаламу', '1алейкум', 'hey','sup'], 'Ва|алейкум ассалям варах|матулох|и ва баракатух|у'),
         
-        Bot_Response(message, ['тупой бот', 'goodbye'], 'сам ты бот'),
+        Bot_Response(message, ['бот', 'goodbye'], 'сам ты бот', 'уйди'),
 
         Bot_Response(message, ['cmd', 'type cmd'], 'нажми на меня /list'),
         

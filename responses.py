@@ -63,6 +63,10 @@ def get_response(message):
     winning_response = max(response_scores)
     matching_response = response_list[response_scores.index(winning_response)]
 
+    # Return the matching response to the user
+    if winning_response == 0:
+     
+        bot_response = matching_response[1]
 
     print('Bot response:', bot_response)
     return bot_response

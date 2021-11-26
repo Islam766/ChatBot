@@ -23,9 +23,9 @@ def get_response(message):
         
         Bot_Response(message, ['бот', 'тупой'], 'Давай я расскажу тебе одну историю, после которой ты станешь полным идиотом. Хотя нет, вижу, ты эту историю уже слышал.'),
 
-        Bot_Response(message, ['сколькотебелет', 'type cmd'], 'click me /list'),
+        Bot_Response(message, ['бот', 'type cmd'], 'click me /list'),
         
-        Bot_Response(message, ['how', 'are', 'you'], 'I\'m doing fine thanks!'),
+        Bot_Response(message, ['бот', 'are', 'you'], 'I\'m doing fine thanks!'),
         #new
         Bot_Response(message, ['how', 'you', 'created'], 'I was created by using python and got deployed on Herkou'),
         
